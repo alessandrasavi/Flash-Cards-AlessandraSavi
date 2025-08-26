@@ -1,9 +1,20 @@
-body{
+body {
     background-color: bisque;
-    font-family: "Bai Jamjuree",sans-serif;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
-footer{
+#container {
+    display: flex;
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    
+}
+
+
+footer {
     background-color: black;
     color: white;
     bottom: 0;
@@ -12,8 +23,8 @@ footer{
     height: 2rem;
 }
 
-footer p{
+footer p {
     text-align: center;
     font-size: 0.6rem;
-    margin-top: 0, 5rem ;
+    margin-top: 0, 5rem;
 }
