@@ -60,6 +60,6 @@ criaCartao(
 
 criaCartao(
     'Curioidades',
-    'Qual animal é capaz de dormir com metade do cérebro acordada?',
+    'Qual animal é capaz de dormir com metade do cérebro acordado?',
     'Golfinho'
 )
