@@ -1,13 +1,14 @@
 :root {
-    --text-color: #dde4ef;
-    --card-front-color: #661414;
-    --card-back-color: #050202;
-
+    --text-color: #dbe4ef;
+    --card-front-color: #662020;
+    --card-back-color: #101111;
+    --cor-da-borda:#ad3053;
+    --cor-fundo-cartao: #ffffff;
 }
 
 body {
-    background-color: rgb(212, 215, 217);
-    font-family: " Bai Jamjuree", sans-serif;
+    background-color: rgb(219, 223, 223);
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
 #container {
@@ -43,7 +44,6 @@ body {
     border-radius: 0.6rem;
     font-size: 1vw;
     backface-visibility: hidden;
-
 }
 
 .cartao__conteudo p {
@@ -73,12 +73,14 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
+    background-color: var(--cor-fundo-cartao);
+    border: 4px solid var(--cor-da-borda);
 }
-
 
 
 footer {
@@ -90,8 +92,8 @@ footer {
     height: 2rem;
 }
 
-footer {
+footer p {
     text-align: center;
-    font-size: 0.6rem;
-    margin-top: 0, 5rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
 }
