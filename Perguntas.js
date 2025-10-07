@@ -1,10 +1,4 @@
 criaCartao(
-    'categoria',
-    'pergunta',
-    'resposta'
-)
-
-criaCartao(
     'Literatura',
     'Qual é o autor de "Dom Quixote"?',
     'Miguel de Cervantes'
